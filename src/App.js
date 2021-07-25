@@ -4,6 +4,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Routes from './components/Routes'
 
 function App() {
     const myAbout = useRef(null)
@@ -37,6 +38,8 @@ function App() {
             <section> 
                 <Contact/>
             </section>
+
+            <Routes/>
         </main>
   );
 }
