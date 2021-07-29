@@ -5,7 +5,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Routes from './components/Routes'
-import backgroundImage from './static/skyBackground2.jpeg'
+import backgroundImage from './static/images/skyBackground2.jpeg'
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
     const scrollContact = () => myContact.current.scrollIntoView() 
 
 return (
-        <main className="bg-cover bg-scroll bg-red-300" style={{backgroundImage: `url(${backgroundImage})`}}>
+        <main className="bg-cover bg-scroll" style={{backgroundImage: `url(${backgroundImage})`}}>
             <section>
                 <Home/>
             </section>
