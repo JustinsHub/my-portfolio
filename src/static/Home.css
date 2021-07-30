@@ -3,20 +3,34 @@
 }
 
 .Home-sub-font {
-  color: rgb(16, 50, 78);
+  color: rgb(25, 75, 116);
 }
 
 .Home-font-color {
   color: rgb(32, 70, 102);
   width: 9rem;
-  margin-top: 0.1rem;
+  margin-top: 0.7rem;
+  height: 2.1rem;
+}
+
+.Home-font-color:focus {
+  box-shadow: 0.5em 0.35em 0px -2px white, 0.5em 0.35em 0px 1px rgb(32, 70, 102);
+  border: solid 3px;
+  background-color: rgb(125, 212, 239);
+}
+
+.Home-font-home-btn {
+  color: rgb(32, 70, 102);
+  width: 9rem;
+  margin-top: 0.7rem;
+  height: 2.1rem;
+  box-shadow: 0.5em 0.35em 0px -2px white, 0.5em 0.35em 0px 1px rgb(32, 70, 102);
+  border: solid 3px;
+  background-color: rgb(125, 212, 239);
 }
 
 .Home-font-color:hover {
   box-shadow: 0.5em 0.35em 0px -2px white, 0.5em 0.35em 0px 1px rgb(32, 70, 102);
   border: solid 3px;
-}
-
-.Home-btn-bg:hover {
   background-color: rgb(125, 212, 239);
 }
