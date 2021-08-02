@@ -21,7 +21,7 @@ function App() {
 
     //single page navbar
 return (
-        <main className="bg-cover bg-scroll" style={{backgroundImage: `url(${backgroundImage})`}}>
+        <main className="bg-cover lg:bg-contain bg-scroll" style={{backgroundImage: `url(${backgroundImage})`}}>
             <section>
                 <Home about={scrollAbout} projects={scrollProjects} skills={scrollSkills} contact={scrollContact}/>
             </section>

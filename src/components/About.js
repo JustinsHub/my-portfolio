@@ -7,7 +7,7 @@ const About = () => {
             <div className="grid grid-rows-1 gap-4 py-24">
                 <div className="grid grid-cols-4 gap-4 py-24">
                     <div className="col-start-2">
-                        <h1 className="global-font-hello text-7xl italic font-semibold flex justify-center">Hello</h1>
+                        <h1 className="global-font-sub-title text-7xl italic font-semibold flex justify-center">Hello</h1>
                         <p className="global-font-family global-font-size leading-relaxed mt-3">
                             I'm Justin and I started as a self-taught developer and transitioned to Springboard’s Software Engineering Bootcamp to 
                             focus on building robust skill sets. I have put my full efforts to software engineering in order to gain 
