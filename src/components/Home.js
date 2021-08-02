@@ -3,23 +3,24 @@ import '../static/Home.css'
 import '../static/global.css'
 
 const Home = ({about, projects, skills, contact}) => {
-    const [isActive, setIsActive] = useState(true)
+    const [isHomeActive, setIsHomeActive] = useState(true)
 
+    //find out about scroll spy library for scrolling through our navbar
     const navigateAbout = () => {
         about()
-        setIsActive(false)
+        setIsHomeActive(false)
     }
     const navigateProjects = () => {
         projects()
-        setIsActive(false)
+        setIsHomeActive(false)
     }
     const navigateSkills = () => {
         skills()
-        setIsActive(false)
+        setIsHomeActive(false)
     }
     const navigateContact = () => {
         contact()
-        setIsActive(false)
+        setIsHomeActive(false)
     }
     
     return (
@@ -33,7 +34,7 @@ const Home = ({about, projects, skills, contact}) => {
                     {/* Navigation buttons */}
                         <div className="m-1">
                             <div className="flex justify-center">
-                                <button className={isActive ? "Home-font-home-btn font-bold uppercase text-xs py-1 rounded-full mr-1 transition-all duration-200" : "Home-font-color font-bold uppercase text-xs py-1 rounded-full mr-1 transition-all duration-200"} type="button" >Home</button>
+                                <button className={isHomeActive ? "Home-font-home-btn font-bold uppercase text-xs py-1 rounded-full mr-1 transition-all duration-200" : "Home-font-color font-bold uppercase text-xs py-1 rounded-full mr-1 transition-all duration-200"} type="button" >Home</button>
                             </div>
                             <div className="flex justify-center">
                                 <button className="Home-btn-bg Home-font-color font-bold uppercase text-xs py-1 rounded-full mr-1 transition-all duration-200" type="button" onClick={navigateAbout}>About</button>

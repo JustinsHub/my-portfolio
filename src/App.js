@@ -19,6 +19,7 @@ function App() {
     const scrollSkills = () => mySkills.current.scrollIntoView() 
     const scrollContact = () => myContact.current.scrollIntoView() 
 
+    //single page navbar
 return (
         <main className="bg-cover bg-scroll" style={{backgroundImage: `url(${backgroundImage})`}}>
             <section>
