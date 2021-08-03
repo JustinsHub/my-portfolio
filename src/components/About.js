@@ -12,7 +12,7 @@ const About = () => {
                             I'm Justin and I started as a self-taught developer and transitioned to Springboard’s Software Engineering Bootcamp to 
                             focus on building robust skill sets. I have put my full efforts to software engineering in order to gain 
                             the skills necessary to compete within this field and be a valuable addition to the company that sees my 
-                            drive and determination. I’m am here for growth and to make an impact.
+                            drive and determination as a full-stack developer. I’m am here for growth and to make an impact in this community.
                         </p>
                     </div>
                     <div className="col-span-1 col-end-4">

@@ -7,9 +7,10 @@ const Projects = () => {
     return (
         <div className="grid grid-rows-1 gap-4" style={{marginTop: '9rem'}}>
             <div className="grid grid-cols-1 gap-4">
-            <div className="rounded overflow-hidden shadow-lg py-16" style={{backgroundColor: 'white'}}>
+            <div className="rounded overflow-hidden p-20 py-10" style={{backgroundColor: 'white'}}>
                 <h1 className="global-font-sub-title text-7xl italic font-semibold flex justify-center mt-5">Projects
                 </h1>
+                <hr className="m-3"/>
                 <div className="flex justify-evenly"> 
                     <div className="p-10">  
                     <Link to={{pathname:"https://github.com/JustinsHub/Pickout"}} target="_blank">
