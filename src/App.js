@@ -4,7 +4,6 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import Routes from './components/Routes'
 import backgroundImage from './static/images/skyBackground2.jpeg'
 
 
@@ -14,10 +13,10 @@ function App() {
     const mySkills = useRef(null)
     const myContact = useRef(null)
     
-    const scrollAbout = () => myAbout.current.scrollIntoView() 
-    const scrollProjects = () => myProjects.current.scrollIntoView() 
-    const scrollSkills = () => mySkills.current.scrollIntoView() 
-    const scrollContact = () => myContact.current.scrollIntoView() 
+    const scrollAbout = () => myAbout.current.scrollIntoView({behavior: "smooth"}) 
+    const scrollProjects = () => myProjects.current.scrollIntoView({behavior: "smooth"}) 
+    const scrollSkills = () => mySkills.current.scrollIntoView({behavior: "smooth"}) 
+    const scrollContact = () => myContact.current.scrollIntoView({behavior: "smooth"}) 
 
     //single page navbar
 return (
@@ -41,9 +40,6 @@ return (
             <section ref={myContact}> 
                 <Contact/>
             </section>
-
-            {/* Figure this out */}
-            <Routes/>
         </main>
     );
 }

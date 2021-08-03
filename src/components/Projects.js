@@ -10,7 +10,7 @@ const Projects = () => {
             <div className="rounded overflow-hidden p-20 py-10" style={{backgroundColor: 'white'}}>
                 <h1 className="global-font-sub-title text-7xl italic font-semibold flex justify-center mt-5">Projects
                 </h1>
-                <hr className="m-3"/>
+                <hr className="m-5"/>
                 <div className="flex justify-evenly"> 
                     <div className="p-10">  
                     <Link to={{pathname:"https://github.com/JustinsHub/Pickout"}} target="_blank">
